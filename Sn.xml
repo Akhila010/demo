@@ -1,0 +1,22 @@
+git init --to initialize the git
+
+git add . -- add all files to the git
+
+git commit -m “first commit” -- to commit the added files
+
+git branch -M main -- to switchto branch main
+git config --global user.name “username” -- to configure your git
+
+account using
+
+git config --global user.email “email-id”
+
+ssh-keygen -t rsa -b 4096 -C <email-id> --to generate the ssh key
+$ cat ~/.ssh/id_rsa.pub 
+
+ git remote set-url origin <ur.git repo url>
+
+ git remote -v
+
+ git push --set-upstream origin main
+git push
